@@ -1,0 +1,24 @@
+body{
+    text-align:center;
+    background-color: royalblue;
+    color:white;
+}
+.login_div1 , .login_div2
+	{
+		background: rgb(241, 72, 30);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+    }
+    #img{
+        margin-top: 50px;
+    }
+    #output
+{
+background: rgb(15, 6, 6);
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}

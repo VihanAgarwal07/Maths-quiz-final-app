@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+    <h4 id="player1_name"> player 1 name</h4><span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"> player 2 name</h4><span id="player2_score"></span>
+<br>
+<div class="container">
+    <center>
+        <h1><kbd>Maths Multiplication!</kbd></h1>
+        <h3 id="player_question_turn">Question turn:</h3>
+        <h3 id="player_answer_turn">Answer turn:</h3>
+
+        <div id="output"class= "col-lg-6 col-md-11 col-sm-11 col-xs-11"></div>
+        <br>
+        <kbd>Send question from here</kbd>
+        <br>
+        <br>
+        <h3>Number 1</h3>
+        <br>
+        <input type="text" placeholder="number 1" id="number1" class="form-control">
+        <br>
+        <br>
+        <h3>Number 2</h3>
+<br>
+        <input type="text" placeholder="number 2" id="number2" class="form-control">
+
+<br>
+<button type="button" class="btn btn-success" style="width:50%" onclick="send()">Send Question</button>
+    </center>
+</div>
+<script src="gamepage.js"></script>
